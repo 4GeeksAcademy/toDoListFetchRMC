@@ -27,7 +27,7 @@ const Home = () => {
 		}
 	}
 	const placeHolder = 
-		tareas>=handleSubmit ? "Let's kill!" : "No one to kill";
+		inputValue>=tareas ? "No one to kill" : "Let's kill!";
 	return (
 		<div>
 			<div className="card">

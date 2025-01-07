@@ -92,7 +92,7 @@ const Home = () => {
 			<div className="card">
 				<img src="https://m.media-amazon.com/images/I/81+JKoSTQgL.jpg" alt="..." />
 				<div className="card-img-overlay">
-					<input className="container-fluid img-overlay text-center" style={{ width: "30%" }} placeholder="Crea nuevo usuario" onChange={(e) => setUsuario(e.target.value)} onKeyDown={handleKeyPress2} />
+					<input className="container-fluid img-overlay text-center" style={{ width: "30%" }} placeholder="Ingrese su usuario" onChange={(e) => setUsuario(e.target.value)} onKeyDown={handleKeyPress2} />
 
 					<form onSubmit={handleSubmit} className="container-fluid img-overlay text-center " style={{ width: "30%" }}>
 						<input type='text' value={inputValue} onChange={handleChange}
